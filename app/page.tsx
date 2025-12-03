@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { fetchProducts } from "@/app/lib/data";
-import Pagination from "@/app/ui/pagination";
+import Pagination from "@/app/components/Pagination";
 
 type PageProps = {
   searchParams: Promise<{ page?: string }>;
