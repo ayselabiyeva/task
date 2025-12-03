@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# --------------------------
+# 🧱 Dependencies & Lockfiles
+# --------------------------
+node_modules/
+.pnpm-debug.log*
+pnpm-debug.log*
+
+# Only keep pnpm lockfile
+package-lock.json
+yarn.lock
+
+# --------------------------
+# ⚙️ Build output
+# --------------------------
+.next/
+out/
+build/
+dist/
+
+# --------------------------
+# 🧪 Testing
+# --------------------------
+coverage/
+*.tsbuildinfo
+
+# --------------------------
+# 🔐 Environment variables
+# --------------------------
+.env
+.env.*     # covers .env.local, .env.development, etc.
+
+# --------------------------
+# 🧠 TypeScript
+# --------------------------
+next-env.d.ts
+
+# --------------------------
+# 💻 Editor / OS Files
+# --------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------------
+# 🔧 Misc
+# --------------------------
+*.pem
+
+# --------------------------
+# 🧪 Jest test snapshots (optional)
+# --------------------------
+__snapshots__/
+
+# --------------------------
+# ⚡ SWC (Next.js compiler) cache
+# --------------------------
+.swc/
+
+# --------------------------
+# 🚀 Vercel Deployment
+# --------------------------
+.vercel/
