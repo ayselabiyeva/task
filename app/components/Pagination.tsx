@@ -1,4 +1,3 @@
-// app/components/Pagination.tsx
 import Link from "next/link";
 
 type PaginationProps = {
